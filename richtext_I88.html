@@ -1,0 +1,907 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>ServiceTechMag.com - Issue LXXXVIII</title>
+	<style type="text/css">
+		body {
+			text-align:				center;
+			margin:					0px;
+			line-height:			14px;
+		}
+		
+		img {
+			border:					none;
+		}
+		
+		h2 {
+			font-family:			"century gothic", sans-serif;
+			font-size:				14px;
+			margin:					0px 0px 10px 0px;
+			padding:				0px;
+		}
+		
+		h2 a:link, h2 a:visited {
+			color:					#000;
+			text-decoration:		none;
+		}
+		
+		.main a.blacklink:link,.main a.blacklink:hover,.main a.blacklink:visited {
+			color:#000;
+		}
+		
+		h3 {
+			background-color:		#000;
+			color:					#fff;
+			font-family:			"century gothic", sans-serif;
+			font-size:				14px;
+			margin:					0px 0px 10px 0px;
+			padding:				0px;
+			text-align:				center;
+			font-weight:			normal;
+			border-top:				5px solid #000;
+			border-left:			3px solid #000;
+			border-right:			3x solid #000;
+			border-bottom:			3px solid #000;
+			height:					17px;
+		}
+		
+		.main p {
+			margin:					0px 0px 10px 0px;
+		}
+		
+		.main {
+			width:					600px; 
+			margin:					0px auto;
+			color:					#000;
+			font-size:				11px;
+			font-family:			arial, sans-serif;
+			text-align:				center;
+			border-collapse:		collapse;
+			border-spacing:			0px;
+			padding:				0px;
+			vertical-align:			top;
+			background-color:		#e4e9ec;
+		}
+		
+		.main td, .middle_zone td {
+			padding:				0px;
+			vertical-align:			top;
+		}
+		
+		table#middle_zone {
+			background-color:		#fff;
+			padding:				0px;
+			border-collapse:		collapse;
+			border-spacing:			0px;
+			border:					none;
+			margin:					0px auto;
+			text-align:				center;
+			width:					600px;
+		}
+		
+		#middle_zone_left {
+			background-color:		#e4e9ec;
+			text-align:				left;
+			border-collapse:		collapse;
+			border-spacing:			0px;
+			padding:				0px;
+			vertical-align:			top;
+			border-top:				10px solid #e4e9ec;
+		}
+		
+		#middle_zone_left td {
+			padding:				0px;
+		}
+		
+		#middle_zone .lefts {
+			border-left:			20px solid #e4e9ec;
+			border-right:			10px solid #e4e9ec;
+		}	
+			
+		#middle_zone_right {
+			width:					237px;
+			background-color:		#fff;
+			border-collapse:		collpase;
+			border-spacing:			0px;
+			padding:				0px;
+		}
+
+		#middle_zone_right a:link, #middle_zone_right a:visited {
+			color:					#000;
+			text-decoration:		none;
+		}
+		
+		#middle_zone_right a:hover {
+			text-decoration:		underline;
+		}
+		
+		#header {
+			width:					600px;
+			margin:					0px auto;
+			height:					120px;
+			border-bottom:			5px solid #e4e9ec;
+		}
+		
+		.greyspace_left {
+			background-color:		#fff;
+			border-top:				10px solid #e4e9ec;
+			border-right:			5px solid #e4e9ec;
+			border-left:			20px solid #e4e9ec;
+		}
+		
+		.greyspace_right {
+			background-color:		#fff;
+			border-top:				10px solid #e4e9ec;
+			border-left:			5px solid #e4e9ec;
+			border-right:			20px solid #e4e9ec;
+		}
+		
+		.greyspace_bottom {
+			background-color:		#fff;
+			border-top:				10px solid #e4e9ec;
+			border-right:			20px solid #e4e9ec;
+			border-left:			20px solid #e4e9ec;
+		}
+		
+		
+		.box_guts {
+			text-align:				left;
+			border:					10px white solid;
+		}
+		
+		.box_guts a {
+			color:					#000;
+			text-decoration:		none;
+		}
+		
+		.box_guts .author_pic img {
+			max-width:				45px;
+		}
+		
+		.author_pic {
+			text-aling:				left;
+			width:					55px;
+		}
+		
+		.right_img {
+			text-align:				right;
+		}
+		
+		#footer {
+			color:					#fff;
+			width:					560px;
+			border:					20px solid #131c2d;
+			margin:					0px auto;
+			background-color:		#131c2d;
+			text-align:				left;
+		}
+		
+		#footer p.center {
+			margin-bottom:			0px;
+			text-align:				center;
+			font-family:			"century gothic", sans-serif;
+		}
+		
+		#footer a:link, #footer a:visited {
+			color:					#fff;
+			text-decoration:		none;
+		}
+		
+		
+		#footer a:hover {
+			text-decoration:		underline;
+		}
+		
+		#stop_subscription {
+			font-family:			"century gothic", sans-serif;
+			font-size:				11px;
+		}
+		
+		#stop_subscription a {
+			color:					#000;
+		}
+		
+		#workshop_list {
+			border-collapse:		collapse;
+			border-spacing:			0px;
+		}
+		
+		#workshop_list td {
+			vertical-align:			top;
+			padding:				0px;
+		}
+		
+		#workshop_list p {
+			font-size:				9px;
+			text-align:				left;
+			margin:					0px 0px 5px 0px;
+			font-family:			arial, sans-serif;
+		}
+		
+		.workshoplist_logo {
+			width:					32px;
+			text-align:				left;
+		}
+		
+		.center {
+			text-align:				center;
+		}
+		
+		.left {
+			text-align:				left;
+		}
+		
+		.grey {
+			background-color:		#eeeeee;
+		}
+		
+		#upcoming_end {
+			border-top:				#eee 5px solid;
+			border-bottom:			#eee 5px solid;
+			margin:					0px;
+			font-size:				10px;
+			font-family:			arial, sans-serif;
+		}
+		
+		#upcoming_end a {
+			color:					#000;
+		}
+		
+		#connected {
+			padding:				0px;
+			border-collapse:		collapse;
+			border-spacing:			0px;
+			padding:				0px;
+		}
+		
+		#connected td {
+			padding:				0px;
+		}
+		
+		.connected_items, .connected_img {
+			border-bottom:			10px solid #fff;
+		}
+		
+		.connected_items div {
+			border-left:			5px solid #fff;
+			border-top:				5px solid #fff;
+			border-bottom:			5px solid #fff;
+			font-family:			arial, sans-serif;
+			font-size:				11px;
+		}
+		
+		.connected_items {
+			text-align:				left;
+		}
+		
+		.connected_items div.grey {
+			border-left:			5px solid #eee;
+			border-top:				5px solid #eee;
+			border-bottom:			5px solid #eee;
+		}
+		
+		.connected_img {
+			width:					35px;
+			border-right:			3px solid #000;
+			vertical-align:			top;
+		}
+		
+		
+		.community_news {
+			padding:				0px;
+			border-spacing:			0px;
+			text-align:				left;
+			font-family:			arial, sans-serif;
+			font-size:				11px;
+		}
+		
+		.community_news td {
+			vertical-align:			top;
+		}
+		
+		.community_news p {
+			margin:					0px 0px 10px 0px;
+		}
+		
+		.community_news .bottoms {
+			border-bottom:			10px solid #e4e9ec;
+		}
+		
+		.community_image {
+			border-left:			10px solid #e4e9ec;
+			border-right:			10px solid #e4e9ec;
+		}
+		
+		.community_image_2 {
+			border-left:			0px solid #e4e9ec;
+			border-right:			10px solid #e4e9ec;
+		}
+		
+		.header_tag {
+			margin-left:			-22px;
+			margin-bottom:			-25px;
+		}
+		
+		#main_title {
+			text-align:				left;
+		}
+		
+		#main_title .header_tag {
+			margin-left:			-11px;
+		}
+		
+		#main_title h3 {
+			border-left:			13px solid #000;
+			margin-bottom:			0px;
+		}
+		
+		.article_title b, .article_title i {
+			border-left:			10px #fff solid;
+			display:				table-cell;
+		}
+		.article_title img {
+			vertical-align:top;
+		}
+		
+		#community_ribbon {
+			margin-top:				-7px;
+			margin-left:			-31px;
+		}
+		
+		.ribbon {
+			width:					622px;
+			margin:					0px auto;
+			text-align:				center;
+		}
+		
+		#top_main {
+			border-bottom:			5px solid #e4e9ec;
+		}
+		
+		.special_one img {
+			display:				inline-block;
+		}
+		
+		#stay_connected_2 {
+			font-family:arial,sans-serif;
+			font-size:11px;
+			text-align:left;
+		}
+
+		#stay_connected_2 h4 {
+			margin:0px 0px 5px 0px ;
+			font-weight:normal;
+			font-weight:bold;
+			font-size:11px;
+		}
+
+		#stay_connected_2 p {
+			margin:0px;
+		}
+
+		#stay_connected_2 img {
+		}	
+		#social_media {
+			width:					600px; 
+			margin:					0px auto;
+			background-color:#636363;
+			color:#fff;
+			font-size:11px;
+			font-family:"Century Gothic", sans-serif;
+			border-collapse:		collapse;
+			border-spacing:			0px;
+		}
+		#social_media h4 {
+			font-family:"Century Gothic", sans-serif;
+			font-weight:normal;
+			font-size:10px;
+			margin:5px 0px 10px;
+		}
+	</style>
+</head>
+
+<body>
+<table class="main" width="600">
+	<tr>
+		<td colspan="2">
+			<div id="header">
+				<a href="http://www.servicetechmag.com/">
+					<img src="http://www.servicetechmag.com/system/application/images/richtext/I88/header.jpg" alt="ServiceTechMagazine.com">
+				</a>
+			</div>
+		</td>
+	</tr>
+
+</table>
+
+<div class="ribbon" width="622">
+	<img src="http://www.servicetechmag.com/system/application/images/richtext/I88/issue_bar.png" alt="http://www.servicetechmag.com/">
+</div>
+
+<table class="main" id="top_main" width="600">			
+	<!--Author Row 1-->
+	<tr>
+		<td width="300" valign="top">
+			<div class="greyspace_left">
+				<div class="box_guts">
+					<p class="article_title" valign="top" style="vertical-align:top">
+						<a href="http://servicetechmag.com/contributors/yveschaix">
+							<img src="http://servicetechmag.com/system/application/images/contributors/headshot-ychaix.png" alt="author" width="45" valign="top" style="vertical-align:top" />
+						</a>
+						&nbsp;
+						<a href="http://servicetechmag.com/contributors/ervinlopez">
+							<img src="http://servicetechmag.com/system/application/images/contributors/headshot-elopez.jpg" alt="author" width="45" valign="top" style="vertical-align:top" />
+						</a>
+						<a href="http://servicetechmag.com/I88/0115-1">
+							<img src="http://www.servicetechmag.com/system/application/images/richtext/I88/0115-1.png" alt="author" />
+						</a>
+					</p>
+					
+					<p class="article_description">This publication describes the conception, design, validation and use of a standard common pattern for automating e-Government (eGov) administrative processes and covers the normal common activities of public administrative processes—theoretically of any size—representing an estimated 80% of development requirements. This study was carried out on Nicaraguan Public Administration which manages around 1,200 administrative processes. If 80% of the logic of each of these processes can be automatized with the services proposed pattern, the savings...</p>
+					
+					<div class="right_img">
+					   <a href="http://servicetechmag.com/I88/0115-1">
+							<img src="http://www.servicetechmag.com/system/application/images/readmore_btn.jpg" alt="Read More...">
+						</a>
+                                                
+					</div>
+				</div>
+
+			</div>
+		</td>
+		
+		<td width="300">
+			<div class="greyspace_right">
+				<div class="box_guts">
+					<p class="article_title">
+						<a href="http://servicetechmag.com/contributors/paulsprueitt">
+							<img src="http://servicetechmag.com/system/application/images/contributors/headshot-PPrueitt.jpg" alt="author" width="45" />
+						</a>
+						<a href="http://servicetechmag.com/I88/0115-2">
+							<img src="http://www.servicetechmag.com/system/application/images/richtext/I88/0115-2.png" alt="author" />
+						</a>
+					</p>
+					
+					<p class="article_description">Human knowledge transfer commonly occurs on digital platforms within industry training programs, in schools, and in colleges. A necessary part of digital knowledge based transfer systems is the enumeration of categories, and thus the rise of categorical analytics as an important sub-discipline of data science. Since this sub-domain is not yet well known, we cite Katzan's entire abstract for his 2008 article: "Categorical analytics is an admixture of computational methods with the express purpose of facilitating the multifaceted process of unstructured...</p>
+					
+					<div class="right_img">
+					   <a href="http://servicetechmag.com/I88/0115-2">
+							<img src="http://www.servicetechmag.com/system/application/images/readmore_btn.jpg" alt="Read More...">
+						</a>
+                                                
+					</div>
+				</div>
+			</div>
+		</td>
+		
+	</tr>
+	<!--End Row 1-->
+	
+	<!--Author Row 1-->
+	<tr>
+		<td width="600" colspan="2">
+			<div class="greyspace_bottom">
+				<div class="box_guts">
+					<p class="article_title">
+						<a href="http://servicetechmag.com/contributors/mariomesaglio">
+							<img src="http://servicetechmag.com/system/application/images/contributors/headshot-mmesaglio.jpg" alt="author" width="45" />
+						</a>
+						&nbsp;
+						&nbsp;
+						<a href="http://servicetechmag.com/I88/0115-3">
+							<img src="http://www.servicetechmag.com/system/application/images/richtext/I88/0115-3.png" alt="author" />
+						</a>
+					</p>
+					
+					<p class="article_description" style="margin-bottom:18px">According to serviceorientation.com, a Message Processing Logic can be defined as: "… A fundamental part of a physical Web service architecture. It typically exists as a combination of parsers, processors, and service agents, many of which are provided by the runtime environment... Examples of message processing logic include message validation, message data transformation, and message header processing." This relates mainly to Service as a Web-Service architectures. Despite that, the MPL should be taken as a fundamental block of any service architecture, not only...</p>
+					
+					<div class="right_img">
+					   <a href="http://servicetechmag.com/I88/0115-3">
+							<img src="http://www.servicetechmag.com/system/application/images/readmore_btn.jpg" alt="Read More...">
+						</a>
+                                                
+					</div>
+				</div>
+			</div>
+		</td>
+		
+	</tr>
+	<!--End Row 2-->
+</table>
+
+<div class="ribbon" width="622">
+	<img src="http://www.servicetechmag.com/system/application/images/richtext/ribbon_2.png" alt="http://www.servicetechmag.com/">
+</div>
+<!--News Feeds-->
+<table id="middle_zone" width="600">
+	<tr>
+		<td id="middle_zone_left">
+			<!--ITEM-->
+			<table class="community_news">
+				<tr>
+				<tr>
+					<td colspan="2" class="lefts">
+						<br /><h2><a href="http://www.bigdatascienceschool.com/store">The Big Data Scientist Certification<br /> Now Available!</a></h2>
+					</td>
+				</tr>
+				<tr>
+					<td class="bottoms lefts" width="200">
+						<p>Go to the Big Data Science School <br />Store in order to purchase the Self-Study <br />Kit Bundle<br /></p>
+						<br />
+						<br />
+						<p>
+							<a href="http://www.bigdatascienceschool.com/store"><img src="http://servicetechmag.com/system/application/images/newsletter/201109/images/learnmore_btn.jpg"></a>
+						</p>
+					</td>
+					<td class="bottoms community_image">
+						<a target="_blank" href="http://www.bigdatascienceschool.com/store">
+							<img src="http://www.servicetechmag.com/system/application/images/richtext/big_scientist.png" hspace="10" width="90" />
+						</a>
+					</td>
+				</tr>
+			</table>
+
+			<!--ITEM---->
+			<table class="community_news">
+				<tr>
+					<td colspan="2" class="lefts">
+						<br /><h2><a href="http://www.cloudschool.com/store">The Cloud Storage Specialist Certification<br /> Now Available!</a></h2>
+					</td>
+				</tr>
+				<tr>
+					<td class="bottoms lefts" width="200">
+						<p>Go to the Cloud School Store <br />in order to purchase the Self-Study <br />Kit Bundle.</p>
+						<br />
+						<br />
+						<p>
+							<a href="http://www.cloudschool.com/store"><img src="http://servicetechmag.com/system/application/images/newsletter/201109/images/learnmore_btn.jpg"></a>
+						</p>
+					</td>
+					<td class="bottoms community_image">
+						<a target="_blank" href="http://www.cloudschool.com/store">
+							<img src="http://www.servicetechmag.com/system/application/images/richtext/cloud_storage.png" hspace="10" width="90" />
+						</a>
+					</td>
+				</tr>
+			</table>	
+			
+			<!--ITEM-->
+			<table class="community_news">
+				<tr>
+					<td colspan="2" class="lefts">
+						<br /><h2><a href="http://servicetechbooks.com/nextgen">Next Generation SOA: <br />A Concise Introduction to Service <br />Technology &amp; Service-Orientation</a></h2>
+					</td>
+				</tr>
+				<tr>
+					<td class="bottoms lefts">
+						<p>The Next Generation SOA: <br />A Concise Introduction to Service Technology &amp; Service-Orientation text book will be released as the eleventh title in the Prentice Hall Service Technology Series from Thomas Erl.<br /></p>
+						<br />
+						<p>
+							<a href="http://servicetechbooks.com/nextgen"><img src="http://servicetechmag.com/system/application/images/newsletter/201109/images/learnmore_btn.jpg"></a>
+						</p>
+					</td>
+					<td class="bottoms community_image">
+						<a target="_blank" href="http://servicetechbooks.com/nextgen">
+							<img src="http://www.servicetechmag.com/system/application/images/richtext/nextgen.png" hspace="10" width="95" />
+						</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+		
+		<td id="middle_zone_right" width="238" valign="top">
+			
+			<table id="workshop_list" width="100%">
+				<tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/dallas_20150216">Cloud Architect Workshop <br />Feb 16-20, 2015 &bull; Dallas</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/lima_20150226">SOA Professional Workshop <br />Feb 26-28, 2015 &bull; Lima</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/dallas_20150302">Big Data Science Professional Workshop <br />Mar 2-4, 2015 &bull; Dallas</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/chennai_20150302">Cloud Technology Professional Workshop <br />Mar 2-4, 2015 &bull; Chennai</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/san_antonio_20150302">SOA Architect Workshop <br />Mar 2-6, 2015 &bull; San Antonio</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/pst_20150302">SOA Consultant Workshop <br />Mar 2-6, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/las_vegas_20150302">Cloud Architect Workshop <br />Mar 2-6, 2015 &bull; Las Vegas</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/lima_20150302">SOA Architect Workshop <br />Mar 2-5, 7, 2015 &bull; Lima</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/lima_20150306">SOA Governance Specialist Workshop <br />Mar 6, 9-14, 2015 &bull; Lima</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/dubai_20150308">SOA Architect Workshop <br />Mar 8-12, 2015 &bull; Dubai</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/bangalore_20150309">Big Data Science Professional Workshop <br />Mar 9-11, 2015 &bull; Bangalore</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/riyadh_20150315">SOA Architect Workshop <br />Mar 15-19, 2015 &bull; Riyadh</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/london_20150316">Big Data Consultant Workshop <br />Mar 16-20, 2015 &bull; London</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/las_vegas_20150316">SOA Architect Workshop <br />Mar 16-20, 2015 &bull; Las Vegas</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/cape_town_20150316">SOA Architect Workshop <br />Mar 16-20, 2015 &bull; Cape Town</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/cape_town_20150316_2">SOA Analyst Workshop <br />Mar 16, 18, 23-25, 2015 &bull; Cape Town</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/naarden_20150318">Cloud Technology Professional Workshop <br />Mar 18-20, 2015 &bull; Naarden</a></p></td>
+                </tr>
+                <!--
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/dubai_20150322">SOA Architect Workshop <br />Mar 22-26, 2015 &bull; Dubai</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/fairfax_20150323">Big Data Scientist Workshop <br />Mar 23-27, 2015 &bull; Fairfax</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/dallas_20150323">Cloud Architect Workshop <br />Mar 23-27, 2015 &bull; Dallas</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/bangalore_20150323">Cloud Architect Workshop <br />Mar 23-27, 2015 &bull; Bangalore</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/pst_20150330">Cloud Technology Professional Workshop <br />Mar 30 - Apr 1, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/pst_20150408">SOA Governance Specialist Workshop <br />Apr 8-10, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/fairfax_20150105">Cloud Storage Specialist Workshop <br />Apr 13-15, 2015 &bull; Fairfax</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/toronto_20150413">SOA Architect Workshop <br />Apr 13-17, 2015 &bull; Toronto</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/las_vegas_20150413">Big Data Scientist Workshop <br />Apr 13-17, 2015 &bull; Las Vegas</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/petaling_jaya_20150416">Cloud Professional Workshop <br />Apr 16-17, 2015 &bull; Petaling Jaya</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/dubai_20150419">Cloud Architect Workshop <br />Apr 19-23, 2015 &bull; Dubai</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/london_20150420">SOA Architect Workshop <br />Apr 20-24, 2015 &bull; London</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/fairfax_20150420">SOA Architect Workshop <br />Apr 20-24, 2015 &bull; Fairfax</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/pst_20150427">Cloud Architect Workshop <br />Apr 27 - May 1, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/london_20150427">Cloud Architect Workshop <br />Apr 27-30, May 1, 2015 &bull; London</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/las_vegas_20150427">SOA Architect Workshop <br />Apr 27 - May 1, 2015 &bull; Las Vegas</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/pst_20150504">Cloud Technology Professional Workshop <br />Mar 30 - Apr 1, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/pst_20150504">Cloud Storage Specialist Workshop <br />May 4-6, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/fairfax_20150504">Big Data Science Professional Workshop <br />May 4-6, 2015 &bull; Fairfax</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/pst_20150511">Big Data Scientist Workshop <br />May 11-15, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/fairfax_20150511">Cloud Architect Workshop <br />May 11-15, 2015 &bull; Fairfax</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/naarden_20150518">Cloud Architect Workshop <br />May 18-22, 2015 &bull; Naarden</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/chennai_20150518">SOA Architect Workshop <br />May 18-22, 2015 &bull; Chennai</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/dubai_20150519">Cloud Technology Professional Workshop <br />May 19-21, 2015 &bull; Dubai</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/pst_20150527">Cloud Technology Professional Workshop <br />May 27-29, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/las_vegas_20150601">Cloud Architect Workshop <br />June 1-5, 2015 &bull; Las Vegas</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/bangalore_20150601">Big Data Scientist Workshop <br />June 1-5, 2015 &bull; Bangalore</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/dubai_20150607">SOA Architect Workshop <br />June 7-11, 2015 &bull; Dubai</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/bangalore_20150608">Big Data Science Professional Workshop <br />June 8-10, 2015 &bull; Bangalore</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/petaling_jaya_20150615">Cloud Professional Workshop <br />June 15-16, 2015 &bull; Petaling Jaya</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/munich_20150615">Big Data Consultant Workshop <br />June 15-19, 2015 &bull; Munich</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/las_vegas_20150615">SOA Architect Workshop <br />June 15-19, 2015 &bull; Las Vegas</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/fairfax_20150615">Cloud Security Specialist Workshop <br />June 15-19, 2015 &bull; Fairfax</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/big_data_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://www.bigdatascienceschool.com/workshops/fairfax_20150622">Big Data Scientist Workshop <br />June 22-26, 2015 &bull; Fairfax</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/soa_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://soaschool.com/workshops/bangalore_20150622">SOA Architect Workshop <br />June 22-26, 2015 &bull; Bangalore</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/naarden_20150624">Cloud Technology Professional Workshop <br />June 24-26, 2015 &bull; Naarden</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/pst_20150629">Cloud Security Specialist Workshop <br />June 29 - July 3, 2015 &bull; PST</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/petaling_jaya_20150817">Cloud Professional Workshop <br />Aug 17-18, 2015 &bull; Petaling Jaya</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/naarden_20150923">Cloud Technology Professional Workshop <br />Sept 23-25, 2015 &bull; Naarden</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/petaling_jaya_20151020">Cloud Professional Workshop <br />Oct 20-21, 2015 &bull; Petaling Jaya</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/naarden_20151123">Cloud Architect Workshop <br />Nov 23-27, 2015 &bull; Naarden</a></p></td>
+                </tr>
+                <tr>
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/naarden_20151130">Cloud Technology Professional Workshop <br />Nov 30 - Dec 2, 2015 &bull; Naarden</a></p></td>
+                </tr>
+                <tr class="grey">
+                    <td class="workshoplist_logo"><img src="http://servicetechmag.com/system/application/images/cloud_logo.jpg" alt="logo" /></td>
+                    <td><p><a href="http://cloudschool.com/workshops/petaling_jaya_20151215">Cloud Professional Workshop <br />Dec 15-16, 2015 &bull; Petaling Jaya</a></p></td>
+                </tr>
+            	-->
+            </table>
+			
+			<p class="center grey" id="upcoming_end">Registration &amp; General Information:<br />
+			<a href="www.arcitura.com/workshops">www.arcitura.com/workshops</a></p>
+
+		</td>
+	</tr>
+</table>
+<!-- End News Feeds-->
+
+<!--Social Media-->
+<table id="social_media" class="main" width="600" cellpadding="5">
+	<tr>
+		<td width="33%">
+			<h4>The Prentice Hall Service <br />Technology Series</h4>
+			<a class="sp sp_facebook" href="https://www.facebook.com/techbks"><img src="http://servicetechmag.com/system/application/images/facebook_logo_hover.gif" alt="img" /></a>&nbsp;&nbsp;&nbsp;
+			<a class="sp sp_twitter" href="http://twitter.com/techbks"><img src="http://servicetechmag.com/system/application/images/twitter_logo_hover.gif" alt="img" /></a>&nbsp;&nbsp;&nbsp;
+			<a class="sp sp_linkedin" href="http://www.linkedin.com/groups?gid=2954416"><img src="http://servicetechmag.com/system/application/images/linkedin_logo_hover.gif" alt="img" /></a>
+		</td>
+		<td width="33%">
+			<h4>Arcitura IT Certified Professionals <br />(AITCP) Community</h4>
+			<a class="sp sp_facebook" href="http://www.facebook.com/Arcitura"><img src="http://servicetechmag.com/system/application/images/facebook_logo_hover.gif" alt="img" /></a>&nbsp;&nbsp;&nbsp;
+			<a class="sp sp_twitter" href="http://twitter.com/arcitura"><img src="http://servicetechmag.com/system/application/images/twitter_logo_hover.gif" alt="img" /></a>&nbsp;&nbsp;&nbsp;
+			<a class="sp sp_linkedin" href="http://www.linkedin.com/groups?gid=3928901"><img src="http://servicetechmag.com/system/application/images/linkedin_logo_hover.gif" alt="img" /></a>&nbsp;&nbsp;&nbsp;
+			<a class="sp sp_youtube" href="http://www.youtube.com/arcitura"><img src="http://servicetechmag.com/system/application/images/youtube_logo_hover.gif" alt="img" /></a>
+		</td>
+
+		<td width="33%">
+			<h4>Service Technology<br /> Magazine</h4>
+			<a class="sp sp_linkedin" href="http://www.linkedin.com/groups/Service-Technology-Magazine-4357541/about"><img src="http://servicetechmag.com/system/application/images/linkedin_logo_hover.gif" alt="img" /></a>&nbsp;&nbsp;&nbsp;
+			<a class="sp sp_rss" href="http://servicetechmag.com/system/application/views/rss/servicetechmag_rss.xml"><img src="http://servicetechmag.com/system/application/images/rss_logo_hover.gif" alt="img" /></a>&nbsp;&nbsp;&nbsp;
+			<a class="sp sp_mail" href="mailto:info@servicetechmag.com"><img src="http://servicetechmag.com/system/application/images/mail_icon.png" alt="img" /></a>
+		</td>
+	</tr>
+</table>
+
+
+
+<!--Footer-->	
+<table class="main" width="600">
+	<tr>
+		<td colspan="2">
+			<div id="footer" width="560">
+				<p>
+					This message contains updates and news related to:<br />
+					- The Service Technology Magazine (<a href="http://www.servicetechmag.com">www.servicetechmag.com</a>) <br />
+					- The "Prentice Hall Service Technology Series from Thomas Erl" (<a href="http://www.servicetechbooks.com/">www.servicetechbooks.com</a>) <br />
+					- SOA Design Patterns (<a href="http://www.soapatterns.org">www.soapatterns.org</a>), Cloud Design Patterns (<a href="http://www.cloudpatterns.org/">www.cloudpatterns.org</a>), Big Data Design Patterns (<a href="http://www.bigdatapatterns.org/">www.bigdatapatterns.org</a>) <br />
+					- The SOA Certified Professional (SOACP) Program (<a href="http://www.soaschool.com/">www.soaschool.com</a>) <br />
+					- The Cloud Certified Professional (CCP) Program (<a href="http://www.cloudschool.com/">www.cloudschool.com</a>) <br />
+					- The Big Data Science Certified Professional (BDSCP) Program (<a href="http://bigdatascienceschool.com/">www.bigdatascienceschool.com/</a>) 
+				</p>
+				
+				<p class="right_img">
+					...and related sites and events
+				</p>
+				
+				<p class="center">
+					Copyright &copy; Arcitura<sup>&trade;</sup> Education Inc. &bull; Arcitura is a trademark of Arcitura Education Inc.
+				</p>
+			</div>
+		</td>
+	</tr>
+</table>
+
+<!--End Footer-->
+
+
+</body>
+</html>
