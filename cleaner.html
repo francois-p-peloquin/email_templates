@@ -49,23 +49,22 @@
 			'=E2=80=99' : "'",
 		};
 		function clean(str) {
-			//Pre
-			var start = '<!DOCTYPE';
-			str = start + str.split(start)[1];
 			
-			var end = '/html>';
-			str = str.split(end)[0] + end;
-
 			str = str.replace(/\t/g,'	');
 			str = str.replace(/=[\n\r]/g,'');
 
 			//Fire
 			for (var i in lib) {
 				var r_tmp = new RegExp(i,"g");
-				// console.log(re);
-				// console.log(i + ' -> ' + lib[i]);
 				str = str.replace(r_tmp,lib[i]);
 			}
+
+			//Pre
+			var start = str.indexOf('<!DOCTYPE') != -1 ? '<!DOCTYPE' : '<html';
+			str = start + str.split(start)[1];
+			
+			var end = '/html>';
+			str = str.split(end)[0] + end;
 
 			return str;
 		}
